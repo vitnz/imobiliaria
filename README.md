@@ -42,7 +42,7 @@ npm install json-server
 Crie ou edite um arquivo chamado server.js com o seguinte conteúdo:
 
 js
-Copiar código
+
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
