@@ -1,0 +1,114 @@
+
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+h1 {
+  color: #14a663;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #ddd;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table th {
+  background-color: #212529;
+  color: #fff;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background-color: #14a663;
+  border-color: none;
+}
+.btn-primary:hover {
+  background-color: #648f7b;
+  border-color: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+input.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+}
+
+input[readonly] {
+  background-color: #e9ecef;
+}
+
+.table .text-center {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.noty_type__success {
+  background-color: #198754 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.noty_bar {
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .table th, .table td {
+    font-size: 0.875rem;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

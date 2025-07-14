@@ -1,0 +1,57 @@
+{
+  "imovel": [
+    {
+      "nome": "Casa na montanha",
+      "tipo": [
+        "Casa",
+        ""
+      ],
+      "valor": 150000,
+      "quartos": 4,
+      "venda": true,
+      "aluguel": false,
+      "dataAnuncio": "2025-07-14T20:34:38+00:00",
+      "endereco": [
+        {
+          "rua": "Rua Carlos Gomes",
+          "numero": "150",
+          "bairro": "São Lucas",
+          "cidade": "Viamão",
+          "uf": "RS",
+          "cep": "94450200"
+        }
+      ],
+      "id": "adba"
+    },
+    {
+      "nome": "Casa no mato",
+      "tipo": [
+        "Casa",
+        "Mato"
+      ],
+      "valor": 200000,
+      "quartos": 3,
+      "venda": true,
+      "aluguel": false,
+      "dataAnuncio": "2025-07-14T20:36:08+00:00",
+      "endereco": [
+        {
+          "rua": "Rua Florentino Rezende",
+          "numero": "400",
+          "bairro": "Nossa Senhora da Penha",
+          "cidade": "Cachoeiro de Itapemirim",
+          "uf": "ES",
+          "cep": "29307413"
+        }
+      ],
+      "id": "5055"
+    }
+  ],
+  "proprietario": [
+    {
+      "id": "1",
+      "nome": "Fulano",
+      "imovelId": 1
+    }
+  ]
+}
